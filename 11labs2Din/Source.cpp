@@ -35,7 +35,7 @@ void menu() {
 }
 
 void userInput(char **array, int x) {
-	cout << "Введите координаты ладьи(Шахматный формат): ";
+	
 }
 
 void outputOnDisplay(char **array, int x) {
@@ -54,6 +54,7 @@ void outputOnDisplay(char **array, int x) {
 		cout << endl;
 	}
 	cout << "\n" << "   " << let << "\n\n";
+	userInput(array, x);
 }
 
 int main() {
